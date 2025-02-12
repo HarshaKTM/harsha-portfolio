@@ -3,7 +3,7 @@
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import  GlobeDemo  from "./GridGlobe";
-import { useState } from "react";
+import React, { useState } from "react";
 import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
 import Lottie from "react-lottie";
@@ -50,8 +50,8 @@ export const BentoGridItem = ({
 }) => {
   const [copied, setCopied] = useState(false);
   const handleCopy=()=> {navigator.clipboard.writeText('harshakumara@gmail.com'); setCopied(true);}
-  // @ts-ignore
-    // @ts-ignore
+
+
     return (
         <div
             className={cn(
@@ -120,7 +120,7 @@ export const BentoGridItem = ({
                                     loop: copied,
                                     autoplay: copied,
                                     animationData,
-                                    rendererSetting: {
+                                    rendererSettings: { // Corrected from rendererSetting to rendererSettings
                                         preserveAspectRatio: 'xMidYMid slice'
                                     }
                                 }}/>

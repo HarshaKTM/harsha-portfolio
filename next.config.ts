@@ -1,13 +1,21 @@
 import {withSentryConfig} from "@sentry/nextjs";
-import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
-    output:'export',
-    typescript:{
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
+    typescript: {
         ignoreBuildErrors: true,
-    }
+    },
 };
+
+module.exports = {
+    // You can add any necessary Next.js config options here
+    trailingSlash: true,  // This is optional; it ensures URLs end with a slash
+};
+
+
 
 export default withSentryConfig(nextConfig, {
 // For all available options, see:

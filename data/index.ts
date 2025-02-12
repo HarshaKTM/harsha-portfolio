@@ -101,19 +101,27 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "Currency-Value-App",
+      des: "A currency converter app is a digital tool designed to provide users with real-time exchange rates between different currencies. These apps are particularly useful for travelers, international businesses, and individuals dealing with multiple currencies, as they offer quick and accurate conversions on the go..",
       img: "/p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/HarshaKTM/currency_value_app",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+      title: "EV Charging Mobile Application",
+      des: "The EV Charging Mobile Application is a user-friendly app designed to help electric vehicle (EV) owners find, book, and manage charging stations on the go. It offers real-time station availability, navigation, and secure payments, ensuring a smooth charging experience...",
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://github.com/Sandeepa-Sadewaka/orel_ev_mobile_app",
+    },
+    {
+      id: 4,
+      title: "EV Charging Web Application",
+      des: "The EV Charging Web Application is a full-stack platform designed to help electric vehicle (EV) users locate, book, and manage charging stations efficiently. It provides real-time station availability, pricing, and navigation while allowing station owners to monitor usage and payments..",
+      img: "/p4.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/GihanJY/orel_ev_web_app",
     },
   ];
   
@@ -322,14 +330,14 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "DevOps Engineer",
+      desc: "DevOps Engineer for Deloping and monitoring product ",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
+      title: "Frontend Developer",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
@@ -339,7 +347,7 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "/github.svg",
     },
     {
       id: 2,
